@@ -1,4 +1,4 @@
-const Platform = {
+/*const Platform = {
     PS: "PlayStation",
     MOBILE: "スマホ / タブレット",
     DESKTOP: "パソコン",
@@ -8,7 +8,7 @@ type Platform = (typeof Platform)[keyof typeof Platform];
 
 type Platforms = {
     [key in keyof typeof Platform]: boolean;
-};
+};*/
 
 export function getFormData() {
     const username = (document.getElementById("f-username") as HTMLInputElement)
