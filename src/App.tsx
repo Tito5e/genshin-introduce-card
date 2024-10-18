@@ -2,8 +2,6 @@
 import { CardColumn } from "@/components/CardColumn";
 import { useToBlob, useToPng } from "@hugocxl/react-to-image";
 import { useEffect } from "react";
-
-import { Gamepad2, Laptop, Smartphone } from "lucide-react";
 import { Form } from "@/components/Form";
 import { mergeRefs } from "@/lib/mergeRefs";
 import { updateInternalElement } from "@/lib/updateInternalElement";

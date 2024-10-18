@@ -1,3 +1,5 @@
+import { Ref } from "react";
+
 export function mergeRefs<T extends HTMLElement>(...refs: Ref<T>[]) {
     return (node: T) => {
         for (const ref of refs) {
